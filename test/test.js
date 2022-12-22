@@ -30,93 +30,91 @@ test.each([
 });
 
 test('Character Creation Test - Swordsman', () => {
-    const result = new Swordsman('Rob', 'Swordsman', 75, 5, 75, 90);
-  
-    const personBowman = {
-      name: 'Rob',
-      type: 'Swordsman',
-      health: 75,
-      level: 5,
-      attack: 75,
-      defence: 90,
-    };
-  
-    expect(result).toEqual(personBowman);
+  const result = new Swordsman('Rob', 'Swordsman', 75, 5, 75, 90);
+
+  const personBowman = {
+    name: 'Rob',
+    type: 'Swordsman',
+    health: 75,
+    level: 5,
+    attack: 75,
+    defence: 90,
+  };
+
+  expect(result).toEqual(personBowman);
 });
 
 test('Character Creation Test - Swordsman', () => {
-    const result = new Swordsman('Rob', 'Swordsman', 75, 5, 75, 90);
-  
-    const personBowman = {
-      name: 'Rob',
-      type: 'Swordsman',
-      health: 75,
-      level: 5,
-      attack: 75,
-      defence: 90,
-    };
-  
-    expect(result).toEqual(personBowman);
+  const result = new Swordsman('Rob', 'Swordsman', 75, 5, 75, 90);
+
+  const personBowman = {
+    name: 'Rob',
+    type: 'Swordsman',
+    health: 75,
+    level: 5,
+    attack: 75,
+    defence: 90,
+  };
+
+  expect(result).toEqual(personBowman);
 });
 
 test('Character Creation Test - Magician', () => {
-    const result = new Magician('Rob', 'Magician', 75, 5, 75, 90);
-  
-    const personBowman = {
-      name: 'Rob',
-      type: 'Magician',
-      health: 75,
-      level: 5,
-      attack: 75,
-      defence: 90,
-    };
-  
-    expect(result).toEqual(personBowman);
+  const result = new Magician('Rob', 'Magician', 75, 5, 75, 90);
+
+  const personBowman = {
+    name: 'Rob',
+    type: 'Magician',
+    health: 75,
+    level: 5,
+    attack: 75,
+    defence: 90,
+  };
+
+  expect(result).toEqual(personBowman);
 });
 
 test('Character Creation Test - Undead', () => {
-    const result = new Undead('Rob', 'Undead', 75, 5, 75, 90);
-  
-    const personBowman = {
-      name: 'Rob',
-      type: 'Undead',
-      health: 75,
-      level: 5,
-      attack: 75,
-      defence: 90,
-    };
-  
-    expect(result).toEqual(personBowman);
+  const result = new Undead('Rob', 'Undead', 75, 5, 75, 90);
+
+  const personBowman = {
+    name: 'Rob',
+    type: 'Undead',
+    health: 75,
+    level: 5,
+    attack: 75,
+    defence: 90,
+  };
+
+  expect(result).toEqual(personBowman);
 });
 
 test('Character Creation Test - Zombie', () => {
-    const result = new Zombie('Rob', 'Zombie', 75, 5, 75, 90);
-  
-    const personBowman = {
-      name: 'Rob',
-      type: 'Zombie',
-      health: 75,
-      level: 5,
-      attack: 75,
-      defence: 90,
-    };
-  
-    expect(result).toEqual(personBowman);
+  const result = new Zombie('Rob', 'Zombie', 75, 5, 75, 90);
+
+  const personBowman = {
+    name: 'Rob',
+    type: 'Zombie',
+    health: 75,
+    level: 5,
+    attack: 75,
+    defence: 90,
+  };
+
+  expect(result).toEqual(personBowman);
 });
 
 test('Character Creation Test - Daemon', () => {
-    const result = new Daemon('Rob', 'Daemon', 75, 5, 75, 90);
-  
-    const personBowman = {
-      name: 'Rob',
-      type: 'Daemon',
-      health: 75,
-      level: 5,
-      attack: 75,
-      defence: 90,
-    };
-  
-    expect(result).toEqual(personBowman);
+  const result = new Daemon('Rob', 'Daemon', 75, 5, 75, 90);
+
+  const personBowman = {
+    name: 'Rob',
+    type: 'Daemon',
+    health: 75,
+    level: 5,
+    attack: 75,
+    defence: 90,
+  };
+
+  expect(result).toEqual(personBowman);
 });
-
-

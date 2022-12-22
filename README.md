@@ -1,6 +1,6 @@
 # Домашнее задание к лекции «Классы, наследование» Классы, наследование
 
-[![Build status](https://ci.appveyor.com/api/projects/status/pdbdnhd7t79y4qb1?svg=true)](https://ci.appveyor.com/project/Kiraradi/ajs-task-4-1-by-kiraradi)
+[![Build status](https://ci.appveyor.com/api/projects/status/i8allcfxxmbvafrw?svg=true)](https://ci.appveyor.com/project/Kiraradi/ajs-task-5-1-by-kiraradi)
 
 [Мое портфолио](https://kiraradi.github.io/Portfolio/)
 
