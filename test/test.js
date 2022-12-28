@@ -1,9 +1,9 @@
-import Bowman from '../src/Bowman.js';
-import Swordsman from '../src/Swordsman.js';
-import Magician from '../src/Magician.js';
-import Undead from '../src/Undead.js';
-import Zombie from '../src/Zombie.js';
-import Daemon from '../src/Daemon.js';
+import Bowman from '../src/Bowman';
+import Swordsman from '../src/Swordsman';
+import Magician from '../src/Magician';
+import Undead from '../src/Undead';
+import Zombie from '../src/Zombie';
+import Daemon from '../src/Daemon';
 
 test('Character Creation Test - Bowman', () => {
   const result = new Bowman('Rob', 'Bowman');
@@ -25,7 +25,7 @@ test.each([
   ['error type', 'Bob', 'lol'],
 ])('error throwing test %s', (error, name, type) => {
   expect(() => {
-    new Bowman(name, type);
+    new Bowman(name, type);// eslint-disable-line no-new
   }).toThrow();
 });
 
